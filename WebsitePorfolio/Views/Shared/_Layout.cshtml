@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tomasz Misiejuk portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/Scripts")
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("EN", "Change", "Home", new { LanguageAbbrevation = "en" }, new { @class = "white shadow" })</li>
+                <li>@Html.ActionLink("PL", "Change", "Home", new { LanguageAbbrevation = "pl"}, new { @class = "white shadow" })</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+
+<!-- footer section -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p>Copyright &copy; 2018 Tomasz Misiejuk</p>
+                <ul class="social-icons">
+                    <li><a target="_blank" href="https://www.facebook.com/tomasz.misiejuk.3" class="fa fa-facebook"></a></li>
+                    <li><a target="_blank" href="https://plus.google.com/u/0/105950059155555069116" class="fa fa-google-plus"></a></li>
+                    <li><a target="_blank" href="https://twitter.com/tomasz_tomek45?lang=en" class="fa fa-twitter"></a></li>
+                    <li><a target="_blank" href="https://github.com/tomek45" class="fa fa-github"></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UC3sRBrdqPspwGlyoB8mW_qw?view_as=subscriber" class="fa fa-youtube"></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/tomasz-misiejuk-b982b7159/" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

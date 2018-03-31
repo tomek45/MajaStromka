@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMeContent" xml:space="preserve">
+    <value>Hi! My name is Tomek and I live in Poland. I am currently studing at post-diploma studies focused on .NET technologies and programming using C# in which I am excceptionally interested. I have a Master degree in Mechanical Engineering and Bachelor degree in PowerEngineering. I have spent one year in Portugal as Erasmus+ student, studying Sustainable Energies. I love to travel and I had two bigger journeys by hitchiking (from Poland to Greece and Italy). Also my hobbies are solving programming riddles, surfing/bodyboarding, reading and learning more.</value>
+  </data>
+  <data name="AboutMeTitle" xml:space="preserve">
+    <value>About me</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Bialystok, Poland</value>
+  </data>
+  <data name="ContactTitle" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="EducationField1" xml:space="preserve">
+    <value>ICT technology and programming</value>
+  </data>
+  <data name="EducationField2" xml:space="preserve">
+    <value>Sustainable Energies</value>
+  </data>
+  <data name="EducationField3" xml:space="preserve">
+    <value>Master Degree in Mechanical Engineering</value>
+  </data>
+  <data name="EducationField4" xml:space="preserve">
+    <value>Bachelor Degree in Power Engineering</value>
+  </data>
+  <data name="EducationTitle" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="ExperienceTitle" xml:space="preserve">
+    <value>Working experience</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Hi, I am Tomek</value>
+  </data>
+  <data name="Job1" xml:space="preserve">
+    <value>Wm Morrison Supermarkets plc</value>
+  </data>
+  <data name="Job2" xml:space="preserve">
+    <value>Enea S.A. Production</value>
+  </data>
+  <data name="JobDescription1" xml:space="preserve">
+    <value>Summer job in England.</value>
+  </data>
+  <data name="JobDescription2" xml:space="preserve">
+    <value>Internship at power plant in Bialystok city.</value>
+  </data>
+  <data name="JobPosition1" xml:space="preserve">
+    <value>Warehousing</value>
+  </data>
+  <data name="JobPosition2" xml:space="preserve">
+    <value>Internship</value>
+  </data>
+  <data name="JobYear1" xml:space="preserve">
+    <value>2015 June - 2015 September</value>
+  </data>
+  <data name="JobYear2" xml:space="preserve">
+    <value>2014 July - 2014 August</value>
+  </data>
+  <data name="Language1" xml:space="preserve">
+    <value>Polish (Native)</value>
+  </data>
+  <data name="Language2" xml:space="preserve">
+    <value>English (B2 according to CEFR)</value>
+  </data>
+  <data name="Language3" xml:space="preserve">
+    <value>Greek (Beginner)</value>
+  </data>
+  <data name="LanguagesTitle" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="School1" xml:space="preserve">
+    <value>Bialystok University of Technology</value>
+  </data>
+  <data name="School2" xml:space="preserve">
+    <value>Instituto Superior de Engenharia do Porto</value>
+  </data>
+  <data name="School3" xml:space="preserve">
+    <value>Bialystok University of Technology</value>
+  </data>
+  <data name="School4" xml:space="preserve">
+    <value>Bialystok University of Technology</value>
+  </data>
+  <data name="SchoolDescription1" xml:space="preserve">
+    <value>Post diploma studies about programming in C# language using .Net technologies. Including basic concepts of IT.</value>
+  </data>
+  <data name="SchoolDescription2" xml:space="preserve">
+    <value>Participation in student exchange programme "Erasmus+" in Portugal for one year.</value>
+  </data>
+  <data name="SchoolDescription3" xml:space="preserve">
+    <value>Specialization in Technology of heating, refrigeration and air conditioning finished with mark 4.5 (B). Thesis susbject "Computer-aided analysis of heat exchange processes on finned surfaces." using SolidWorks Software.</value>
+  </data>
+  <data name="SchoolDescription4" xml:space="preserve">
+    <value>Specialization in energy transfer and production finished with mark 4 (C). Thesis susbject "Project of ground heat exchanger" using SolidWorks Software.</value>
+  </data>
+  <data name="SchoolYears1" xml:space="preserve">
+    <value>2017 October - 2018 June</value>
+  </data>
+  <data name="SchoolYears2" xml:space="preserve">
+    <value>2016 September - 2017 July</value>
+  </data>
+  <data name="SchoolYears3" xml:space="preserve">
+    <value>2016 February - 2018 November</value>
+  </data>
+  <data name="SchoolYears4" xml:space="preserve">
+    <value>2011 September - 2015 March</value>
+  </data>
+  <data name="SkillsContent1" xml:space="preserve">
+    <value>C# programming language</value>
+  </data>
+  <data name="SkillsContent2" xml:space="preserve">
+    <value>Solidworks (+flow simulation)</value>
+  </data>
+  <data name="SkillsContent3" xml:space="preserve">
+    <value>Windows, ms office</value>
+  </data>
+  <data name="SkillsContent4" xml:space="preserve">
+    <value>Basic knowledge in .Net Framework (WPF, MVC), Oracle Database SQL, Linux, Html, XML, XAML</value>
+  </data>
+  <data name="SkillsContent5" xml:space="preserve">
+    <value>Familiarity with Git, GitHub, Unity Engine, Android Studio, Android, Photoshop, Sony Vegas Pro, Catia</value>
+  </data>
+  <data name="SkillsTitle" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+</root>
