@@ -123,6 +123,36 @@
   <data name="AboutMeTitle" xml:space="preserve">
     <value>About me</value>
   </data>
+  <data name="CertificateTitle" xml:space="preserve">
+    <value>Certificates</value>
+  </data>
+  <data name="CertificateTitle10" xml:space="preserve">
+    <value>Udemy Unity 2D game Development</value>
+  </data>
+  <data name="CertificateTitle12" xml:space="preserve">
+    <value>Udemy Object Oriented Programming</value>
+  </data>
+  <data name="CertificateTitle13" xml:space="preserve">
+    <value>Udemy Unity Game Development</value>
+  </data>
+  <data name="CertificateTitle14" xml:space="preserve">
+    <value>Portuguese language course certificate</value>
+  </data>
+  <data name="CertificateTitle4" xml:space="preserve">
+    <value>SoloLearn HTML Fundamentals</value>
+  </data>
+  <data name="CertificateTitle5" xml:space="preserve">
+    <value>Linux fundamentals certificate</value>
+  </data>
+  <data name="CertificateTitle6" xml:space="preserve">
+    <value>Udemy Unity game development</value>
+  </data>
+  <data name="CertificateTitle8" xml:space="preserve">
+    <value>Udemy ASP.NET MVC Core 2.0</value>
+  </data>
+  <data name="CertificateTitle9" xml:space="preserve">
+    <value>Udemy Introduction to Git and HitHub</value>
+  </data>
   <data name="City" xml:space="preserve">
     <value>Bialystok, Poland</value>
   </data>
@@ -146,6 +176,9 @@
   </data>
   <data name="ExperienceTitle" xml:space="preserve">
     <value>Working experience</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Main page</value>
   </data>
   <data name="Intro" xml:space="preserve">
     <value>Hi, I am Tomek</value>
@@ -222,6 +255,9 @@
   <data name="SchoolYears4" xml:space="preserve">
     <value>2011 September - 2015 March</value>
   </data>
+  <data name="SeeAll" xml:space="preserve">
+    <value>See all...</value>
+  </data>
   <data name="SkillsContent1" xml:space="preserve">
     <value>C# programming language</value>
   </data>
@@ -236,6 +272,9 @@
   </data>
   <data name="SkillsContent5" xml:space="preserve">
     <value>Familiarity with Git, GitHub, Unity Engine, Android Studio, Android, Photoshop, Sony Vegas Pro, Catia</value>
+  </data>
+  <data name="SkillsContent6" xml:space="preserve">
+    <value>Knowledge in renewable energies, heat transfer, climatization and energy production gained through cycle of studies.</value>
   </data>
   <data name="SkillsTitle" xml:space="preserve">
     <value>Skills</value>

@@ -29,5 +29,11 @@ namespace WebsitePorfolio.Controllers
 
             return View("Index");
         }
+
+        public ActionResult CertificateGallery()
+        {
+            return View();
+        }
+
     }
 }

@@ -123,6 +123,36 @@
   <data name="AboutMeTitle" xml:space="preserve">
     <value>Coś o sobie</value>
   </data>
+  <data name="CertificateTitle" xml:space="preserve">
+    <value>Certyfikaty</value>
+  </data>
+  <data name="CertificateTitle10" xml:space="preserve">
+    <value>Udemy Unity 2D game Development</value>
+  </data>
+  <data name="CertificateTitle12" xml:space="preserve">
+    <value>Udemy Programowanie Obiektowe w C#</value>
+  </data>
+  <data name="CertificateTitle13" xml:space="preserve">
+    <value>Udemy Unity Game Development</value>
+  </data>
+  <data name="CertificateTitle14" xml:space="preserve">
+    <value>Kurs z języka portugalskiego (30 godzinny)</value>
+  </data>
+  <data name="CertificateTitle4" xml:space="preserve">
+    <value>SoloLearn podstawy HTML</value>
+  </data>
+  <data name="CertificateTitle5" xml:space="preserve">
+    <value>Kurs podstaw Linux'a</value>
+  </data>
+  <data name="CertificateTitle6" xml:space="preserve">
+    <value>Kurs Udemy game development</value>
+  </data>
+  <data name="CertificateTitle8" xml:space="preserve">
+    <value>Udemy ASP.NET MVC Core 2.0</value>
+  </data>
+  <data name="CertificateTitle9" xml:space="preserve">
+    <value>Udemy wprowadzenie do Git i HitHub</value>
+  </data>
   <data name="City" xml:space="preserve">
     <value>Białystok, Polska</value>
   </data>
@@ -146,6 +176,9 @@
   </data>
   <data name="ExperienceTitle" xml:space="preserve">
     <value>Doświadczenie</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Strona główna</value>
   </data>
   <data name="Intro" xml:space="preserve">
     <value>Witaj! Nazywam się Tomek</value>
@@ -222,6 +255,9 @@
   <data name="SchoolYears4" xml:space="preserve">
     <value>2011 Wrzesień - 2015 Marzec</value>
   </data>
+  <data name="SeeAll" xml:space="preserve">
+    <value>Zobacz więcej...</value>
+  </data>
   <data name="SkillsContent1" xml:space="preserve">
     <value>Język programowania C#</value>
   </data>
@@ -232,10 +268,13 @@
     <value>Windows, ms office</value>
   </data>
   <data name="SkillsContent4" xml:space="preserve">
-    <value>Podstawowa wiedza z zakresu .Net Framework (WPF, MVC), Oracle Database SQL, Linux, Html, XML, XAML</value>
+    <value>Podstawowa wiedza w  .Net Framework (WPF, MVC), Oracle Database SQL, Linux, Html, XML, XAML</value>
   </data>
   <data name="SkillsContent5" xml:space="preserve">
     <value>Podstawowa znajomość: Git, GitHub, Unity Engine, Android Studio, Android, Photoshop, Sony Vegas Pro, Catia</value>
+  </data>
+  <data name="SkillsContent6" xml:space="preserve">
+    <value>Wiedza z zakresu energii odnawialnych, przepływu ciepła, klimatyzacji i produkcji energii konwencjonalnej zdobyta podczas studiów.</value>
   </data>
   <data name="SkillsTitle" xml:space="preserve">
     <value>Umiejętności</value>

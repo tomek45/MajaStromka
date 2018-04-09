@@ -27,7 +27,8 @@ namespace WebsitePorfolio
                       "~/Scripts/jquery.js",
                       "~/Scripts/bootstrap.min.js",
                       "~/Scripts/jquery.backstretch.min.js",
-                      "~/Scripts/custom.js"));
+                      "~/Scripts/custom.js",
+                      "~/Scripts/slideshow.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",

@@ -189,6 +189,9 @@
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\ProximaNova-Bold.otf" />
     <Content Include="fonts\ProximaNova-Regular.otf" />
+    <Content Include="images\certificate1.jpg" />
+    <Content Include="images\certificate2.jpg" />
+    <Content Include="images\certificate3.jpg" />
     <Content Include="images\tm-bg-slide-1.jpg" />
     <Content Include="images\tm-bg-slide-2.jpg" />
     <Content Include="images\tm-bg-slide-3.jpg" />
@@ -197,6 +200,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\custom.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\modalimage.js" />
+    <Content Include="Scripts\slideshow.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery.backstretch.min.js" />
@@ -224,6 +229,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\CertificateGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

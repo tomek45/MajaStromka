@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "CertificateGallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="white bold shadow">@WebsitePorfolio.Resources.HomeTexts.CertificateTitle</h2>
+
+<div class="container">
+
+    <div class="row equal">
+        <div class="col-sm-6 languages">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate14.png" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle14">
+        </div>
+        <div class="col-sm-6 experience">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate5.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle5">
+        </div>
+    </div>
+
+    <div class="row equal">
+        <div class="col-sm-6 experience">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate6.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle6">
+        </div>
+        <div class="col-sm-6 languages">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate4.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle4">
+        </div>
+    </div>
+
+    <div class="row equal">
+        <div class="col-sm-6 languages">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate12.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle12">
+        </div>
+        <div class="col-sm-6 experience">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate8.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle8">
+        </div>
+    </div>
+
+    <div class="row equal">
+        <div class="col-sm-6 experience">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate10.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle10">
+
+        </div>
+        <div class="col-sm-6 languages">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate9.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle9">
+        </div>
+    </div>
+
+    <div class="row equal">
+        <div class="col-sm-6 languages">
+            <img class="img-responsive myImg" src="~/images/gallery/certificate13.jpg" alt="@WebsitePorfolio.Resources.HomeTexts.CertificateTitle13">
+        </div>
+
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+
+@Scripts.Render("~/Scripts/modalimage.js")

@@ -79,6 +79,96 @@ namespace WebsitePorfolio.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Certificates.
+        /// </summary>
+        public static string CertificateTitle {
+            get {
+                return ResourceManager.GetString("CertificateTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Udemy Unity 2D game Development.
+        /// </summary>
+        public static string CertificateTitle10 {
+            get {
+                return ResourceManager.GetString("CertificateTitle10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Udemy Object Oriented Programming.
+        /// </summary>
+        public static string CertificateTitle12 {
+            get {
+                return ResourceManager.GetString("CertificateTitle12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Udemy Unity Game Development.
+        /// </summary>
+        public static string CertificateTitle13 {
+            get {
+                return ResourceManager.GetString("CertificateTitle13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Portuguese language course certificate.
+        /// </summary>
+        public static string CertificateTitle14 {
+            get {
+                return ResourceManager.GetString("CertificateTitle14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SoloLearn HTML Fundamentals.
+        /// </summary>
+        public static string CertificateTitle4 {
+            get {
+                return ResourceManager.GetString("CertificateTitle4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Linux fundamentals certificate.
+        /// </summary>
+        public static string CertificateTitle5 {
+            get {
+                return ResourceManager.GetString("CertificateTitle5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Udemy Unity game development.
+        /// </summary>
+        public static string CertificateTitle6 {
+            get {
+                return ResourceManager.GetString("CertificateTitle6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Udemy ASP.NET MVC Core 2.0.
+        /// </summary>
+        public static string CertificateTitle8 {
+            get {
+                return ResourceManager.GetString("CertificateTitle8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Udemy Introduction to Git and HitHub.
+        /// </summary>
+        public static string CertificateTitle9 {
+            get {
+                return ResourceManager.GetString("CertificateTitle9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bialystok, Poland.
         /// </summary>
         public static string City {
@@ -147,6 +237,15 @@ namespace WebsitePorfolio.Resources {
         public static string ExperienceTitle {
             get {
                 return ResourceManager.GetString("ExperienceTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main page.
+        /// </summary>
+        public static string HomeTitle {
+            get {
+                return ResourceManager.GetString("HomeTitle", resourceCulture);
             }
         }
         
@@ -376,6 +475,15 @@ namespace WebsitePorfolio.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to See all....
+        /// </summary>
+        public static string SeeAll {
+            get {
+                return ResourceManager.GetString("SeeAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to C# programming language.
         /// </summary>
         public static string SkillsContent1 {
@@ -417,6 +525,15 @@ namespace WebsitePorfolio.Resources {
         public static string SkillsContent5 {
             get {
                 return ResourceManager.GetString("SkillsContent5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Knowledge in renewable energies, heat transfer, climatization and energy production gained through cycle of studies..
+        /// </summary>
+        public static string SkillsContent6 {
+            get {
+                return ResourceManager.GetString("SkillsContent6", resourceCulture);
             }
         }
         
