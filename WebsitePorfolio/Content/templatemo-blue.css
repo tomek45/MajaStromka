@@ -75,6 +75,7 @@ h2 {
 .contact, .experience {
     padding: 40px;
     min-height: 330px;
+    border-radius: 25px;
 }
 
 .education, .languages,
@@ -468,3 +469,7 @@ ul li:before {
     }
 }
 
+[class*="col-"] {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}

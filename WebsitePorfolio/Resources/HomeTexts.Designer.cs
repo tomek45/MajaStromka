@@ -349,7 +349,7 @@ namespace WebsitePorfolio.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Greek (Beginner).
+        ///   Looks up a localized string similar to Greek, Portuguese (Beginner).
         /// </summary>
         public static string Language3 {
             get {
