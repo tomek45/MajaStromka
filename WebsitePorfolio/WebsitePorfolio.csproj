@@ -194,6 +194,17 @@
     <Content Include="images\certificate1.jpg" />
     <Content Include="images\certificate2.jpg" />
     <Content Include="images\certificate3.jpg" />
+    <Content Include="images\gallery\certificate10.jpg" />
+    <Content Include="images\gallery\certificate11.jpg" />
+    <Content Include="images\gallery\certificate12.jpg" />
+    <Content Include="images\gallery\certificate13.jpg" />
+    <Content Include="images\gallery\certificate14.png" />
+    <Content Include="images\gallery\certificate4.jpg" />
+    <Content Include="images\gallery\certificate5.jpg" />
+    <Content Include="images\gallery\certificate6.jpg" />
+    <Content Include="images\gallery\certificate7.jpg" />
+    <Content Include="images\gallery\certificate8.jpg" />
+    <Content Include="images\gallery\certificate9.jpg" />
     <Content Include="images\tm-bg-slide-1.jpg" />
     <Content Include="images\tm-bg-slide-2.jpg" />
     <Content Include="images\tm-bg-slide-3.jpg" />
@@ -204,6 +215,7 @@
     <None Include="bundleconfig.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\modalimage.js" />
+    <Content Include="Scripts\navbarScript.js" />
     <Content Include="Scripts\slideshow.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
