@@ -15,12 +15,10 @@
 <body data-spy="scroll" data-target=".navbar-collapse">
     <nav class="navbar" >
         <div id='cssmenu'>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" style="float: none!Important;">
                 <li>@Html.ActionLink(@WebsitePorfolio.Resources.HomeTexts.HomeTitle, "Index", "Home", null, new { @class = "white shadow" })</li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li>@Html.ActionLink("EN", "Change", "Home", new { LanguageAbbrevation = "en" }, new { @class = "white shadow" })</li>
-                <li>@Html.ActionLink("PL", "Change", "Home", new { LanguageAbbrevation = "pl" }, new { @class = "white shadow" })</li>
+                <li style="float:right;">@Html.ActionLink("EN", "Change", "Home", new { LanguageAbbrevation = "en" }, new { @class = "white shadow" })</li>
+                <li style="float:right;">@Html.ActionLink("PL", "Change", "Home", new { LanguageAbbrevation = "pl" }, new { @class = "white shadow" })</li>
             </ul>
         </div>
     </nav>

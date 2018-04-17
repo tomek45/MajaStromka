@@ -94,7 +94,7 @@ h2 {
 }
 
 /* preloader section */
-.preloader {
+/*.preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -136,7 +136,7 @@ h2 {
     border-radius: 8px;
     top: 5px;
     left: 5px;
-}
+}*/
 
 @-webkit-keyframes sk-innerCircle {
     0% {
